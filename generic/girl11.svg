@@ -2,9 +2,9 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="19.929371mm"
-   height="45.200634mm"
-   viewBox="0 0 19.929372 45.200639"
+   width="20.075365mm"
+   height="47.568977mm"
+   viewBox="0 0 20.075365 47.568977"
    version="1.1"
    id="svg1"
    inkscape:version="1.4.2 (f4327f4, 2025-05-13)"
@@ -24,8 +24,8 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="1.2275954"
-     inkscape:cx="160.47633"
-     inkscape:cy="-131.1507"
+     inkscape:cx="-39.915431"
+     inkscape:cy="101.01048"
      inkscape:window-width="2880"
      inkscape:window-height="1676"
      inkscape:window-x="-12"
@@ -33,40 +33,15 @@
      inkscape:window-maximized="1"
      inkscape:current-layer="layer1" />
   <defs
-     id="defs1">
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath119">
-      <path
-         d="m 2429.58,8528.87 v 0 l -1.54,4.27 c 7.66,35.49 -15.79,67.53 -15.79,67.53 10.47,20.59 15.22,39.01 16.15,55.3 95.03,81.21 245.93,222.7 239.94,298.46 -6.68,84.06 -297.09,299.7 -435.14,397.71 -1.96,12.33 -3.87,24.38 -5.72,36.02 -4.67,29.42 -8.97,56.5 -12.82,80.63 v 0 c 0,0 399.66,-281.36 528.14,-436.13 0,0 44.89,-42.39 44.81,-102.96 0,-4.99 -0.32,-10.11 -0.98,-15.34 -8.76,-68.62 -357.05,-385.49 -357.05,-385.49"
-         transform="translate(0,2.5000001e-4)"
-         id="path119" />
-    </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath299">
-      <path
-         d="m 6622.23,11070.3 c 4.28,3.8 8.4,7.9 12.38,12.2 -0.48,-0.6 -0.96,-1.2 -1.45,-1.8 -3.23,-3.4 -6.57,-6.6 -10.01,-9.8 -0.22,-0.1 -0.44,-0.3 -0.66,-0.4 l -0.26,-0.2"
-         transform="translate(0,2.5000001e-4)"
-         id="path299" />
-    </clipPath>
-    <clipPath
-       clipPathUnits="userSpaceOnUse"
-       id="clipPath602">
-      <path
-         d="m 4237.98,3522.14 c 0,0 0,0.01 0,0.02 0,-0.01 0,-0.01 0,-0.02 m 0.01,0.2 c 0,0.1 0.01,0.2 0.01,0.3 0,-0.1 -0.01,-0.2 -0.01,-0.3"
-         transform="translate(0,2.5000001e-4)"
-         id="path602" />
-    </clipPath>
-  </defs>
+     id="defs1" />
   <g
      inkscape:label="图层 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-61.912349,-372.79768)">
+     transform="translate(-115.62292,-121.70833)">
     <g
        id="g249"
-       transform="matrix(0.26458333,0,0,0.26458333,35.986201,298.35043)">
+       transform="matrix(0.26458333,0,0,0.26458333,18.788436,51.229836)">
 		<path
    style="fill:#33527b"
    d="m 405.689,266.412 c 0,0 26.665,-2.225 34.08,28.03 7.415,30.255 -34.08,34.111 -34.08,34.111 0,0 -33.104,-0.297 -33.104,-26.844 0,-26.547 14.597,-35.445 33.104,-35.297 z"
