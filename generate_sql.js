@@ -73,7 +73,9 @@ function formatName(name) {
     return formatted;
 }
 
-// 直接生成biology文件夹的SQL
-generateSQL('object', 3000);
+// 直接生成biology文件夹的SQL\
+generateSQL('celebrity', 1000);
+generateSQL('object', 2000);
+generateSQL('biology', 3000);
 
 module.exports = { generateSQL, formatName };
