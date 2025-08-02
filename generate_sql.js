@@ -38,13 +38,13 @@ function generateSQL(folderName, orderNum = 1000) {
         const height = fileNameWithoutExt.substring(lastDashIndex + 1);
 
         // 生成字段值
-        const id = `${folderName}-${characterName.toLowerCase().replace(/ /g, '-')}`;
+        const type = folderName.split('-')[0];
+        const id = `${type}-${characterName.toLowerCase().replace(/ /g, '-')}`;
         const name = formatName(characterName);
-        const type = folderName;
         const mediaType = fileExtension.toLowerCase() === '.svg' ? 'svg' : 'image';
         // URL编码文件名以处理特殊字符
         const encodedFileName = encodeURIComponent(file);
-        const mediaUrl = `https://raw.githubusercontent.com/happydrew/compareheights-characters/refs/heads/main/${folderName}/${encodedFileName}`;
+        const mediaUrl = `https://raw.githubusercontent.com/happydrew/compareheights-characters/refs/heads/main/${type}/${encodedFileName}`;
         const thumbnailUrl = mediaUrl;
 
         // 转义SQL字符串中的特殊字符
@@ -97,7 +97,8 @@ function formatName(name) {
 
 // 直接生成biology文件夹的SQL\
 generateSQL('celebrity', 1000);
-generateSQL('object', 2000);
-generateSQL('biology', 3000);
+generateSQL('object-2', 2100);
+generateSQL('biology-2', 3100);
+generateSQL('generic-2', 800);
 
 module.exports = { generateSQL, formatName };
