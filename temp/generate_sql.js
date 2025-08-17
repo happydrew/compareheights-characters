@@ -404,7 +404,7 @@ function processSubfolderFile(file, parentFolder, subfolderName, subId, parentId
     const height = fileNameWithoutExt.substring(lastDashIndex + 1);
 
     // 生成字段值，使用层级前缀
-    const id = `${parentFolder}-${subfolderName}-${characterName.toLowerCase().replace(/ /g, '_')}`;
+    const id = `${parentFolder}-${characterName.toLowerCase().replace(/ /g, '_')}`;
     const name = formatName(characterName);
     const mediaType = fileExtension.toLowerCase() === '.svg' ? 'svg' : 'image';
 
