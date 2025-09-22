@@ -145,6 +145,26 @@ const DEFAULT_CATEGORIES = [
         ]
     },
     {
+        id: 10,
+        path: 'films',
+        name: 'Films',
+        pid: null,
+        children: [
+            {
+                id: 1010,
+                path: 'star_wars',
+                name: 'Star Wars',
+                pid: null
+            },
+            {
+                id: 1020,
+                path: 'walking_dead',
+                name: 'Walking Dead',
+                pid: null
+            }
+        ]
+    },
+    {
         id: 4,
         path: 'fictional_characters',
         name: 'Fictional Characters',
@@ -404,7 +424,7 @@ function processSubfolderFile(file, parentFolder, subfolderName, subId, parentId
     const height = fileNameWithoutExt.substring(lastDashIndex + 1);
 
     // 生成字段值，使用层级前缀
-    const id = `${parentFolder}-${characterName.toLowerCase().replace(/ /g, '_')}`;
+    const id = `${parentFolder}-${subfolderName}-${characterName.toLowerCase().replace(/ /g, '_')}`;
     const name = formatName(characterName);
     const mediaType = fileExtension.toLowerCase() === '.svg' ? 'svg' : 'image';
 
@@ -446,3 +466,5 @@ generateSQL('animals', 6000);
 generateSQL('plants', 7000);
 generateSQL('microorganisms', 8000);
 generateSQL('objects', 9000);
+generateSQL('films', 10000);
+
