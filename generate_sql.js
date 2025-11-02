@@ -201,6 +201,13 @@ const DEFAULT_CATEGORIES = [
                 path: 'cats',
                 name: 'Cats',
                 pid: null
+            },
+            {
+                id: 630,
+                path: 'dinosaurs',
+                name: 'dinosaurs',
+                nameKey: 'compareheights.categories.dinosaurs',
+                pid: null
             }
         ]
     },
